@@ -61,7 +61,7 @@ The installer will:
 
 2. **Clone/Download:**
    ```bash
-   git clone https://github.com/YourUsername/LPM.git
+   git clone https://github.com/thompog/LPM.git
    cd LPM
    ```
 
@@ -370,5 +370,6 @@ MIT License - See LICENSE file for details
 **Made with for Windows system administrators and auditors**
 
 *Ready to collect. Secure to share. Easy to analyze.*
+
 
 
