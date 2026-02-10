@@ -46,7 +46,7 @@ A comprehensive Windows system information collector and reporting tool built wi
 ## Installation
 
 ### Option 1: MSI Installer (Recommended)
-Download `LPM installer.msi` from [Releases](https://github.com/YourUsername/LPM/releases) and run it.
+Download `LPM installer.msi` from [Releases](https://github.com/thompog/LPM/releases) and run it.
 
 The installer will:
 - Install LPM to your local application folder
@@ -370,4 +370,5 @@ MIT License - See LICENSE file for details
 **Made with for Windows system administrators and auditors**
 
 *Ready to collect. Secure to share. Easy to analyze.*
+
 
