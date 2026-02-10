@@ -11,7 +11,7 @@ A comprehensive Windows system information collector and reporting tool built wi
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Core Collection
 - **OS & System Information** - Windows version, manufacturer, serial number
@@ -26,24 +26,24 @@ A comprehensive Windows system information collector and reporting tool built wi
 - **Network Connectivity** - Ping test results with latency
 
 ### Export Formats
-- 📊 **JSON** - Structured data for APIs and dashboards
-- 📋 **CSV** - Tabular format for spreadsheet analysis
-- 🔗 **XML** - Validated output for legacy systems
+- **JSON** - Structured data for APIs and dashboards
+- **CSV** - Tabular format for spreadsheet analysis
+- **XML** - Validated output for legacy systems
 
 ### Security Features
-- 🔒 **Secure Credentials** - Interactive prompts with hidden input (no CLI exposure)
-- 🛡️ **Data Sanitization** - Automatic cleanup of invalid characters
-- 📁 **Selective Export** - Control exactly which sections are included
+- **Secure Credentials** - Interactive prompts with hidden input (no CLI exposure)
+- **Data Sanitization** - Automatic cleanup of invalid characters
+- **Selective Export** - Control exactly which sections are included
 
 ### UX Enhancements
-- 📈 **Smart Summaries** - Large datasets summarized in terminal
-- 📊 **Percentages** - Disk/memory usage shown as percentages
-- 🎯 **Section Filtering** - Export only relevant information
-- 📖 **Clear Output** - Organized, easy-to-read formatting
+- **Smart Summaries** - Large datasets summarized in terminal
+- **Percentages** - Disk/memory usage shown as percentages
+- **Section Filtering** - Export only relevant information
+- **Clear Output** - Organized, easy-to-read formatting
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Option 1: MSI Installer (Recommended)
 Download `LPM installer.msi` from [Releases](https://github.com/YourUsername/LPM/releases) and run it.
@@ -77,7 +77,7 @@ The installer will:
 
 ---
 
-## 🎯 Quick Start
+## Quick Start
 
 ### Basic Usage
 ```bash
@@ -115,7 +115,7 @@ python LPM.py --sections "OS & System,CPU,Memory,Network" --json-out filtered.js
 
 ---
 
-## 📚 Available Sections
+## Available Sections
 
 Use these names with `--sections` flag:
 
@@ -140,7 +140,7 @@ Example: `--sections "CPU,Memory,Network"`
 
 ---
 
-## 💻 Command-Line Options
+## Command-Line Options
 
 ```bash
 python LPM.py [OPTIONS]
@@ -162,7 +162,7 @@ Options:
 
 ---
 
-## 📋 Example Workflows
+## Example Workflows
 
 ### System Audit Report
 ```bash
@@ -201,7 +201,7 @@ python LPM.py --run-collector \
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 - **[Quick Reference](docs/QUICK_REFERENCE.md)** - Common commands and examples
 - **[Enhancements Guide](docs/ENHANCEMENTS.md)** - Detailed feature documentation
@@ -211,7 +211,7 @@ python LPM.py --run-collector \
 
 ---
 
-## 🔒 Security
+## Security
 
 ### Credential Handling
 **DO NOT use:**
@@ -234,7 +234,7 @@ python LPM.py --upload URL --prompt-creds
 
 ---
 
-## 🛠️ Building from Source
+## Building from Source
 
 ### Requirements
 - Windows 10+
@@ -253,7 +253,7 @@ See [installer/README.md](installer/README.md) for detailed build instructions.
 
 ---
 
-## 📊 Output Examples
+## Output Examples
 
 ### Console Output
 ```
@@ -298,17 +298,17 @@ CPU(s),Cores: 14, LogicalProcessors: 20
 
 ---
 
-## ✅ Latest Enhancements (v1.0+)
+## Latest Enhancements (v1.0+)
 
-- ✨ **Secure Credential Prompts** - Interactive input with hidden credentials
-- 🎯 **Section Filtering** - Export only needed sections
-- 🛡️ **XML Sanitization** - Fixed null-byte errors, clean exports
-- 📉 **Smart Data Limiting** - Large datasets summarized in terminal
-- 📊 **Enhanced Formatting** - Percentages, better organization, clearer output
+- **Secure Credential Prompts** - Interactive input with hidden credentials
+- **Section Filtering** - Export only needed sections
+- **XML Sanitization** - Fixed null-byte errors, clean exports
+- **Smart Data Limiting** - Large datasets summarized in terminal
+- **Enhanced Formatting** - Percentages, better organization, clearer output
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Python Not Found
 Ensure Python 3.7+ is installed and in your PATH:
@@ -334,7 +334,7 @@ python verify_exports.py
 
 ---
 
-## 📞 Support
+## Support
 
 - Check [docs/QUICK_REFERENCE.md](docs/QUICK_REFERENCE.md) for common issues
 - See [docs/ENHANCEMENTS.md](docs/ENHANCEMENTS.md) for feature details
@@ -342,13 +342,13 @@ python verify_exports.py
 
 ---
 
-## 📄 License
+## License
 
 MIT License - See LICENSE file for details
 
 ---
 
-## 🎉 Getting Started
+## Getting Started
 
 1. **Download** the MSI installer from [Releases](https://github.com/YourUsername/LPM/releases)
 2. **Run** the installer
@@ -358,15 +358,16 @@ MIT License - See LICENSE file for details
 
 ---
 
-## 🔄 Version History
+## Version History
 
 | Version | Release Date | Highlights |
 |---------|--------------|-----------|
-| 1.0+ | Feb 2026 | ✨ Secure prompts, section filtering, XML fix, enhanced formatting |
+| 1.0+ | Feb 2026 | Secure prompts, section filtering, XML fix, enhanced formatting |
 | 0.9 | Previous | Initial release with basic collection and exports |
 
 ---
 
-**Made with ❤️ for Windows system administrators and auditors**
+**Made with for Windows system administrators and auditors**
 
 *Ready to collect. Secure to share. Easy to analyze.*
+
