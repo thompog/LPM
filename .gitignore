@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# WiX
+*.wixobj
+*.wixpdb
+installer/output/
+
+# Runtime files
+info.txt
+done.txt
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
